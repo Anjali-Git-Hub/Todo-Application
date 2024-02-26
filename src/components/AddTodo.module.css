@@ -1,0 +1,40 @@
+.todoSearch{
+    text-align:center;
+
+}
+.todoForm {
+    display: grid;
+    grid-template-columns: 1fr 120px;
+    align-items: center;
+    height: 60px;
+    padding: 0 1em;
+    border-radius: 10px;
+    background-color: #fff;
+
+}
+.input{
+width:100%;
+    background: #fff;
+    outline: none;
+    font-size: 2rem;
+    border:none;
+    text-transform :capitalize;
+
+}
+.submitBtn{
+    padding: 1em;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background:#232f3e;
+    color: #fff;
+    cursor:pointer;
+    transition:background 0.5s ease-in-out;
+    font-size: 1.5rem;
+    font-weight:600;
+}
+.submitBtn:hover{
+background:#131A22;
+
+
+}

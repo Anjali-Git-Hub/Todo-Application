@@ -1,0 +1,33 @@
+.completedAndTask{
+    display:flex;
+     align-items:center;
+    gap:20px;
+}
+.todos{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin: 1.5em;
+    padding: 3em 2em;
+    border-radius: 10px;
+    background: #232f3e;
+    color:#fff;
+
+}
+.todos p{
+font-size: 2.5rem;
+padding-right:10px;
+}
+.checkbox{
+    height: 32px;
+    width: 32px;
+    accent-color: #fff;
+}
+.removeTodo{
+    font-size: 2rem;
+    cursor: pointer;
+    background: #232f3e;
+    color:#fff;
+    border:none;
+    outline:none;
+}
