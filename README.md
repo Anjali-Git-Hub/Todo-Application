@@ -13,6 +13,9 @@ Built using:
 
 
 ## About Todo App
+
+⭐ firstly created a form to add new todos. Using controlled input fields, where the value of the input fields is stored in states and updated as the user interacts with them, ensures that your component stays in sync with the user input. 
+
 ⭐ I have used the useState hook intially to store my todos but after that i learned about usereducer hook so i used it store my todos.
 
 
